@@ -1,0 +1,20 @@
+body{
+    background-color: #111;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 75%; 
+    margin: 0 auto;
+}
+
+h1{
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        width: 95%; 
+        margin: 0 auto;
+    }
+  }
